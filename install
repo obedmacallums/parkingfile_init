@@ -1,0 +1,7 @@
+#!/bin/bash
+sudo apt install -y python3
+sudo apt install -y python3-pip git virtualenv
+sudo pip3 install --no-cache-dir fabric
+sudo git clone https://github.com/obedmacallums/parkingfile_ssh.git
+cd parkingfile_ssh
+ls -l
