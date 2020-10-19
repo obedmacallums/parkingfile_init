@@ -4,9 +4,11 @@ sudo apt install -y git libffi-dev libssl-dev gcc libc6-dev make python3-pip git
 
 sudo curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
+sudo systemctl enable docker
 
 virtualenv env -p python3
 source env/bin/activate
+pip install --upgrade pip
 pip install invoke
 pip install boto3
 pip install docker
