@@ -12,7 +12,7 @@ pip install --upgrade pip
 pip install invoke
 pip install boto3
 pip install docker
-pip install docker-compose
+
 
 git clone https://github.com/obedmacallums/parkingfile_ssh.git
 cd parkingfile_ssh
